@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Classement LDP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #555;
+    }
+    th {
+      background-color: #222;
+    }
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+    .qualifie {
+      background-color: #0055aa;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Classement en temps réel – LDP</h1>
+  <p>Les 100 premiers sont qualifiés pour le tournoi Masters du dimanche !</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Rang</th>
+        <th>Joueur</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tbody id="classement">
+      <!-- Classement dynamique à remplir en JS plus tard -->
+      <tr class="qualifie">
+        <td>1</td>
+        <td>JoueurA</td>
+        <td>2500</td>
+      </tr>
+      <tr class="qualifie">
+        <td>2</td>
+        <td>JoueurB</td>
+        <td>2100</td>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>JoueurZ</td>
+        <td>85</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
